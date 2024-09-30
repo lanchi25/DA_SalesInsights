@@ -11,7 +11,7 @@ As a data analyst I will provide this dashboard to the sales director.
 Fast Moving Consumer Goods (FMCG)
 
 #### Skill Acquired: 
-Tech: SQL, Power BI.
+Tech: SQL, Power BI.  
 Core: Business understanding, analytical mindset.
 
 #### Method: 
