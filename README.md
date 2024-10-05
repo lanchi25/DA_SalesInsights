@@ -12,7 +12,10 @@ Fast Moving Consumer Goods (FMCG)
 
 #### Skill Acquired: 
 Tech: SQL, Power BI.  
-Core: Business understanding, analytical mindset.
+Core: Business understanding, analytical mindset.  
+
+  _**Example of Sale Insight Dashboard:**_
+![Example of Sale Insight Dashboard](https://github.com/user-attachments/assets/00bc3b2b-edad-4d39-9570-32ae01e356a3)
 
 #### Method: 
 Use STAR Method (Situation, Task, Action, Result)
@@ -21,6 +24,10 @@ Use STAR Method (Situation, Task, Action, Result)
 - Result: The dashboard enables quick, data-informed decisions, effectively displaying sales trend and potentially raising revenue by at least 7% in the next quarter.
   
 ## Data Analysis Using SQL
+
+_**Illustration of database diagram:**_
+![Illustraion of database diagram](https://github.com/user-attachments/assets/426f68e9-b590-4319-8cdc-bdfc03c2129d)
+
 1. Show all customer records  
 `SELECT * FROM customers;`
 3. Show total numer of customers  
