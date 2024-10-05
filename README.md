@@ -1,4 +1,4 @@
-# Sales Insights Data Analysis Project
+# SALES INSIGHT DATA ANALYSIS PRESENTATION
 
 ## Project Details
 #### Problem Statement:
@@ -14,7 +14,7 @@ Fast Moving Consumer Goods (FMCG)
 Tech: SQL, Power BI.  
 Core: Business understanding, analytical mindset.  
 
-  _**Example of Sale Insight Dashboard:**_
+  _**Illustration of Sale Insight Dashboard:**_
 ![Example of Sale Insight Dashboard](https://github.com/user-attachments/assets/00bc3b2b-edad-4d39-9570-32ae01e356a3)
 
 #### Method: 
