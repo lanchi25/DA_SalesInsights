@@ -22,6 +22,8 @@ Core: Business understanding, analytical mindset.
 - Use SQL statements to query data for analysis
   
 ### Data Analysis Using Power BI
+
+
 **DAX, Measure**
 
 1. Formula to create norm_amount column  
@@ -53,7 +55,7 @@ Core: Business understanding, analytical mindset.
 
 
 ## Report
-[Interactive Dashboard](https://app.powerbi.com/viewr=eyJrIjoiNjVhY2Q3MGEtM2VjYS00MmMwLWEyZDQtMWYxMTM2NmQ0ZmM3IiwidCI6IjFkYjA0Njk1LWI4NzYtNGE1YS04MzQwLWU2MGI4ZTFiZWVhMiIsImMiOjEwfQ%3D%3D)  
+[Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjVhY2Q3MGEtM2VjYS00MmMwLWEyZDQtMWYxMTM2NmQ0ZmM3IiwidCI6IjFkYjA0Njk1LWI4NzYtNGE1YS04MzQwLWU2MGI4ZTFiZWVhMiIsImMiOjEwfQ%3D%3D)  
 
 _**Illustration of Sale Insight Dashboard:**_
 ![Example of Sale Insight Dashboard](https://github.com/user-attachments/assets/00bc3b2b-edad-4d39-9570-32ae01e356a3)
