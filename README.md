@@ -21,17 +21,17 @@ Core: Business understanding, analytical mindset.
 - Build data model in Power BI
 - Use SQL statements to query data for analysis
   
-#### Data Analysis Using Power BI
+### Data Analysis Using Power BI
 **DAX, Measure**
 
 1. Formula to create norm_amount column  
    `= Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] = "USD\r" then [sales_amount]*75 else [sales_amount], type any)`
 
 
-**Data Model**
+**Data Model**  
+![image](https://github.com/user-attachments/assets/71d22910-6e0b-483c-98b1-2ea2ede14d3e)
 
-
-#### Data Analysis Using SQL
+### Data Analysis Using SQL
 1. Show all customer records  
 `SELECT * FROM customers;`
 3. Show total numer of customers  
@@ -58,7 +58,7 @@ Core: Business understanding, analytical mindset.
 ![Example of Sale Insight Dashboard](https://github.com/user-attachments/assets/00bc3b2b-edad-4d39-9570-32ae01e356a3)
 
 
-_**Recommendation:**_
+_**Recommendation:**_  
 The business should:
   + Run creative seasonal marketing campaigns (voucher, discount,..) with different products. Besides the best-selling items, we need to have marketing campaigns for the items that are not selling well.
   + Listen and record negative customer feedback about products and services... To find out the unresonable points (price, quality, delivery, errors) and fix them.
