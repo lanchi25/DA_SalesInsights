@@ -22,16 +22,13 @@ Core: Business understanding, analytical mindset.
 - Use SQL statements to query data for analysis
   
 ### Data Analysis Using Power BI
-
+**Data Model**  
+![image](https://github.com/user-attachments/assets/71d22910-6e0b-483c-98b1-2ea2ede14d3e)
 
 **DAX, Measure**
 
 1. Formula to create norm_amount column  
    `= Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] = "USD\r" then [sales_amount]*75 else [sales_amount], type any)`
-
-
-**Data Model**  
-![image](https://github.com/user-attachments/assets/71d22910-6e0b-483c-98b1-2ea2ede14d3e)
 
 ### Data Analysis Using SQL
 1. Show all customer records  
@@ -55,7 +52,7 @@ Core: Business understanding, analytical mindset.
 
 
 ## Report
-[Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjVhY2Q3MGEtM2VjYS00MmMwLWEyZDQtMWYxMTM2NmQ0ZmM3IiwidCI6IjFkYjA0Njk1LWI4NzYtNGE1YS04MzQwLWU2MGI4ZTFiZWVhMiIsImMiOjEwfQ%3D%3D)  
+<a href="https://app.powerbi.com/view?r=eyJrIjoiNjVhY2Q3MGEtM2VjYS00MmMwLWEyZDQtMWYxMTM2NmQ0ZmM3IiwidCI6IjFkYjA0Njk1LWI4NzYtNGE1YS04MzQwLWU2MGI4ZTFiZWVhMiIsImMiOjEwfQ%3D%3D" target="_blank">Interactive Dashboard</a>
 
 _**Illustration of Sale Insight Dashboard:**_
 ![Example of Sale Insight Dashboard](https://github.com/user-attachments/assets/00bc3b2b-edad-4d39-9570-32ae01e356a3)
