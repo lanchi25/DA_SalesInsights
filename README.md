@@ -1,39 +1,26 @@
 # SALES INSIGHT DATA ANALYSIS PRESENTATION
 
 ## Project Details
-#### Problem Statement:
-Atliq Hardwares - a computer hardware business facing challenges to increase revenue in a dynamically changing market. The sales director needs a dashdboard that can give him real-time sales insights that will provid him insights to increase revenue.
-
-#### What I will do:
-As a data analyst I will provide this dashboard to the sales director.
-
-#### Domain: 
-Fast Moving Consumer Goods (FMCG)
-
-#### Skill Acquired: 
-Tech: SQL, Power BI.  
-Core: Business understanding, analytical mindset.  
+- **Problem Statement**: Atliq Hardwares - a computer hardware business facing challenges to increase revenue in a dynamically changing market. The sales director needs a dashdboard that can give him real-time sales insights that will provid him insights to increase revenue.
+- **What I will do**: As a data analyst I will provide this dashboard to the sales director. Provided sales insights that are not visible before for sales team for decision support & automate them to reduced manual time spent in data gathering.
+- **Domain**: Fast Moving Consumer Goods (FMCG)
+- **Skill Acquired**: Tech: SQL, Power BI.  Core: Business understanding, analytical mindset.  
+- **Results**:
+  - Dashboards uncovering sales order insights with latest data available
+  - Sales team able to take better decisions & prove 10% cost savings of total spend
+  - Sales Analysts stop data gathering manually in order to save 20% of their business time and reinvest it value added activity.
 
 
 ## Analysis
-- Use SQL to extract and load data to Power BI
-- Use Power query to clean and transform data
-- Build data model in Power BI
-- Use SQL statements to query data for analysis
-  
-### Data Analysis Using Power BI
-**Data Model**  
-![image](https://github.com/user-attachments/assets/71d22910-6e0b-483c-98b1-2ea2ede14d3e)
+#### Data discovery  
 
+![image](https://github.com/user-attachments/assets/32322768-02a2-4f14-9473-07e158ebe171)
+
+The data was pulled from OLTP which is SQL Server, in my case they do all the tranformation which is also called ETL(extract, transform and load). After doing that they store the data in a data warehouse. By doing this transformation they are reformatting the data in a way that is best for performing analytical query. After that data analysts pull the data from data warehouse and they will build dashboard. For simplicity, I will have an SQL database and then directly pug Power BI to that and build dashboard.
+
+#### Data Analysis Using SQL  
 <details>
-<summary>DAX, Measure</summary>
-
-1. Formula to create norm_amount column  
-   `= Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] = "USD\r" then [sales_amount]*75 else [sales_amount], type any)`
-</details>
-
-<details>
-<summary>Data Analysis Using SQL</summary>
+<summary>Use SQL statements to query data for analysis</summary>
   
 1. Show all customer records  
 `SELECT * FROM customers;`
@@ -56,7 +43,20 @@ Core: Business understanding, analytical mindset.
 
 </details>
 
-## Report
+#### Data cleaning & ETL
+- Use SQL to extract and load data to Power BI
+- Use Power query to clean and transform data
+<details>
+<summary>DAX, Measure</summary>
+
+1. Formula to create norm_amount column  
+   `= Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] = "USD\r" then [sales_amount]*75 else [sales_amount], type any)`
+</details>
+
+#### Data model   
+![image](https://github.com/user-attachments/assets/71d22910-6e0b-483c-98b1-2ea2ede14d3e)
+
+## Dashboard
 <a href="https://app.powerbi.com/view?r=eyJrIjoiNjVhY2Q3MGEtM2VjYS00MmMwLWEyZDQtMWYxMTM2NmQ0ZmM3IiwidCI6IjFkYjA0Njk1LWI4NzYtNGE1YS04MzQwLWU2MGI4ZTFiZWVhMiIsImMiOjEwfQ%3D%3D" 
 target="_blank">Interactive Dashboard</a>
 
